@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  font-family: inter;
+}
+
+h3 {
+  color: #31b9ff;
+}
+
+.barre_nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  gap: 12%;
+  height: 70px;
+}
+
+.logo {
+  width: 10%;
+  margin-left: 60px;
+}
+
+.bouton_nav {
+  margin-left: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: #fefefe;
+  border: #fefefe;
+  transition: all 0.3s ease-in-out;
+}
+
+.bouton_nav:hover {
+  transform: scale(1.1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../assets/img/bg_circuit.png);
+}
+
+h2 {
+  color: #31b9ff;
+}
+
+#all_cars {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 450px;
+  height: 420px;
+}
+
+.bienvenue {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.bienvenue.txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  text-align: justify;
+  padding-left: 20px;
+  width: 30%;
+}
+
+#news {
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image_news {
+  width: 160%;
+  margin-top: 30px;
+}
+
+.image_news:hover {
+  transform: scale(1.01);
+  opacity: 80%;
+}
+
+.news_article {
+  display: flex;
+  flex-direction: row;
+}
+
+.news_txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.link {
+  width: 20%;
+}
+
+footer {
+  background-color: #24292c;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin-top: 120px;
+}
+
+.rs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+#contact_txt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  margin-left: 100px;
+  width: 20%;
+  font-size: 20px;
+}
+
+#contact p {
+  color: #fefefe;
+  display: flex;
+  flex-direction: row;
+}
+
+.mail {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .barre_nav {
+    gap: 10px;
+  }
+  .bienvenue {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .bienvenue.txt {
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+  }
+  #news {
+    margin-left: 50px;
+  }
+  .news_txt {
+    width: 50%;
+  }
+  #contact_txt {
+    width: 30%;
+  }
+}
