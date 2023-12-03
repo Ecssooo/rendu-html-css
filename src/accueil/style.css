@@ -52,6 +52,19 @@ h2 {
   color: #31b9ff;
 }
 
+#vidéo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 190px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  width: 80%;
+  height: 500px;
+}
+
+#video_txt {
+  margin-bottom: 20px;
+}
 #all_cars {
   margin-left: 50px;
   margin-top: 20px;
@@ -65,7 +78,7 @@ h2 {
   flex-direction: row;
   margin-top: 50px;
   margin-left: 120px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .bienvenue.txt {
@@ -79,7 +92,7 @@ h2 {
 
 #news {
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -119,28 +132,54 @@ footer {
   margin-top: 120px;
 }
 
+#logo-fia {
+  width: 50px;
+  height: 35px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+#logo-aco {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+#credit {
+  display: flex;
+  flex-direction: column;
+  width: 100p;
+}
+
+#barre_footer {
+  background-color: #fefefe;
+  width: 1px;
+  height: 200px;
+  margin-left: 70px;
+}
 .rs {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 35px;
+  margin-left: -70px;
   gap: 20px;
 }
 
 #contact_txt {
   display: flex;
   flex-direction: column;
-  margin-top: 46px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 40px;
   width: 20%;
   font-size: 20px;
+  color: #31b9ff;
 }
 
 #contact p {
   color: #fefefe;
   display: flex;
   flex-direction: row;
+  margin-left: -70px;
 }
-
 .mail {
   margin-top: 20px;
 }
@@ -160,12 +199,26 @@ footer {
     margin-left: 10px;
   }
   #news {
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 0;
+    align-items: center;
   }
   .news_txt {
     width: 50%;
+    text-align: center;
   }
   #contact_txt {
     width: 30%;
+  }
+  #vidéo {
+    margin-top: 100px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .news_article {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -125px;
   }
 }
